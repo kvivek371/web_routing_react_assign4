@@ -1,0 +1,46 @@
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    color: aliceblue ;
+    box-sizing: border-box;
+    }
+
+.nav__container ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: aliceblue ;      
+    font-size: 50px;    
+}
+.nav__container ul li{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue ;
+    padding: 10px 170px;
+}
+
+.student__details h1{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.student__details  button{
+    width: 300px;
+    margin-left: 700px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.table{
+    border: 1px solid gray;
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    left: 25vw;
+}
+
+th,td{
+    border: 1px solid gray;
+}
